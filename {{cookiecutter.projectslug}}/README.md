@@ -1,4 +1,4 @@
-# Personal Finance App
+# Full stack web app skeleton
 
 ## Backend
 
@@ -10,7 +10,7 @@ Setup python environment (with pyenv)
 ```sh
 cd api/
 
-pyenv activate personal-finance
+pyenv activate <venv>
 ```
 
 Setup python environment (with virtualenv)
