@@ -1,5 +1,6 @@
 {
     "project_name": "Cookiecutter Full Stack Web App",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
-    "author": "Peter Matev"
-  }
+    "author": "Peter Matev",
+    "db_name": "database"
+}

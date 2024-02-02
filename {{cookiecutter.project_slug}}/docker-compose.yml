@@ -3,7 +3,7 @@ services:
   postgres:
     image: postgres:latest
     environment:
-      POSTGRES_DB: {{ db_name }}
+      POSTGRES_DB: {{ cookiecutter.db_name }}
       POSTGRES_USER: root
       POSTGRES_PASSWORD: thisisthelocaldatabasepassword
     ports:
